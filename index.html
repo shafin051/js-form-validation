@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button id="trigger">
+        <i class="fa fa-eye"></i>
+    </button>
+     <div id="modal">
+        <div class="main">
+            <div class="form-container">
+                <form>
+                    <h3>sign up form <i class="fa fa-close" id="closebtn"></i></h3>
+                    <div class="input-group">
+                        <input type="text" placeholder="your name" id="uName">
+                        <small id="uNameErr"></small>
+                    </div>
+   
+                    <div class="input-group">
+                        <input type="email" placeholder="your mail" id="email">
+                        <small id="emailErr"></small>
+                    </div>
+   
+                    <div class="input-group">
+                        <input type="password" placeholder="enter password" id="pass">
+                        <small id="passErr"></small>
+                    </div>
+   
+                    <div class="input-group">
+                        <input type="password" placeholder="confirm password" id="rePass">
+                        <small id="rePassErr"></small>
+                    </div>
+   
+                    <button onclick="return subm();">send</button>
+   
+                    <!-- <div class="input-group">
+                        <input type="text" placeholder="your name">
+                        <small></small>
+                    </div> -->
+                </form>
+            </div>
+        </div>
+   
+     </div>
+
+
+    <script src="js/custom.js"></script>
+</body>
+</html>
